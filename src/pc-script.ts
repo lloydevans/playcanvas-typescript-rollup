@@ -1,20 +1,3 @@
-<div align="center">
-
-<img width="140" src="https://s3-eu-west-1.amazonaws.com/static.playcanvas.com/platform/images/logo/playcanvas-logo-medium.png"/><img width="140" src="https://cdn.worldvectorlogo.com/logos/typescript.svg"/><img width="140" src="https://i.ibb.co/LgLjs79/rollup.jpg"/>
-
-</div>
-
-# playcanvas-typescript-rollup
-
-Basic starter project for writing a PlayCanvas project with TypeScript and Rollup.
-
-## Setup
-
-`npm i`, then `npm run build` to compile once, or `npm run watch` to watch files.
-
-## Script example
-
-```ts
 import { ScriptType } from "playcanvas";
 
 /**
@@ -42,4 +25,3 @@ PcScript.attributes.add("scriptAttribute", {
   type: "boolean",
   default: false,
 });
-```
