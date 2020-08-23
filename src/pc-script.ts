@@ -4,6 +4,8 @@ import { ScriptType } from "playcanvas";
  * TODO: Add description.
  */
 export class PcScript extends ScriptType {
+  public scriptAttribute: boolean = false;
+
   /**
    * Called when script is about to run for the first time.
    */

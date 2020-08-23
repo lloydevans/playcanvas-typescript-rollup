@@ -2,11 +2,7 @@ interface Window {}
 
 // Project type mixins.
 declare namespace pc {
-  export interface PcScript {
-    scriptAttribute: boolean;
-  }
-
   interface ScriptComponent {
-    pcScript?: PcScript;
+    pcScript?: import("./src/pc-script").PcScript;
   }
 }
