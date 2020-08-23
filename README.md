@@ -2,9 +2,9 @@
 
 <img width="140" src="https://s3-eu-west-1.amazonaws.com/static.playcanvas.com/platform/images/logo/playcanvas-logo-medium.png"/><img width="140" src="https://cdn.worldvectorlogo.com/logos/typescript.svg"/><img width="140" src="https://i.ibb.co/LgLjs79/rollup.jpg"/>
 
-</div>
-
 # playcanvas-typescript-rollup
+
+</div>
 
 Basic starter project for writing a PlayCanvas project with TypeScript and Rollup.
 
