@@ -1,9 +1,9 @@
-import { ScriptType } from "playcanvas";
+import * as pc from "playcanvas";
 
 /**
  * TODO: Add description.
  */
-export class PcScript extends ScriptType {
+export class PcScript extends pc.ScriptType {
   public scriptAttribute: boolean = false;
 
   /**

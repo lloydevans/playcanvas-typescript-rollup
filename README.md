@@ -15,12 +15,12 @@ Basic starter project for writing a PlayCanvas project with TypeScript and Rollu
 ## Script example
 
 ```ts
-import { ScriptType } from "playcanvas";
+import * as pc from "playcanvas";
 
 /**
  * TODO: Add description.
  */
-export class PcScript extends ScriptType {
+export class PcScript extends pc.ScriptType {
   /**
    * Called when script is about to run for the first time.
    */
